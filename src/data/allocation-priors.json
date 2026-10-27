@@ -1,0 +1,25 @@
+{
+  "note": "ASSUMPTION: synthesized priors from docs/research-report.md section 4.2, to be tuned from pilot data. Values are integer basis points (10000 = 100%); each tier sums to 10000.",
+  "tiers": {
+    "budget": {
+      "venue": 1500, "catering": 3800, "decor": 1000, "photo_video": 700, "attire": 800,
+      "makeup_mehendi": 300, "music_entertainment": 400, "guest_hospitality": 300,
+      "invites_gifts": 300, "rituals": 200, "contingency": 700
+    },
+    "mid": {
+      "venue": 1800, "catering": 3000, "decor": 1300, "photo_video": 800, "attire": 700,
+      "makeup_mehendi": 300, "music_entertainment": 500, "guest_hospitality": 400,
+      "invites_gifts": 300, "rituals": 200, "contingency": 700
+    },
+    "premium": {
+      "venue": 2000, "catering": 2500, "decor": 1600, "photo_video": 800, "attire": 600,
+      "makeup_mehendi": 300, "music_entertainment": 500, "guest_hospitality": 500,
+      "invites_gifts": 300, "rituals": 100, "contingency": 800
+    },
+    "destination": {
+      "venue": 2500, "catering": 2200, "decor": 1400, "photo_video": 700, "attire": 500,
+      "makeup_mehendi": 300, "music_entertainment": 400, "guest_hospitality": 1000,
+      "invites_gifts": 200, "rituals": 100, "contingency": 700
+    }
+  }
+}
